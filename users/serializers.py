@@ -1,10 +1,10 @@
 # Доработать
 from rest_framework import serializers
-from ads.models_old import Location
+from ads.models.location import Location
 from users.models import User
 
 
-class UserSerializer(serializers.ModelSerializer):
+class UserListSerializer(serializers.ModelSerializer):
     location = serializers.SlugRelatedField(
         read_only=True,
         slug_field='name'

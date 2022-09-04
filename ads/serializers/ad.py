@@ -1,6 +1,8 @@
 from rest_framework.generics import get_object_or_404
 from rest_framework import serializers
-from ads.models_old import Category, Ad
+
+from ads.models.ad import Ad
+from ads.models.category import Category
 from users.models import User
 
 

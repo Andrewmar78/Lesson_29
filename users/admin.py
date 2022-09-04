@@ -1,4 +1,5 @@
 from django.contrib import admin
-from ads.models_old import User
+
+from users.models import User
 
 admin.site.register(User)

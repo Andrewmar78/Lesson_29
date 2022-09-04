@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ads.models_old import Location
+from ads.models.location import Location
 
 
 class LocationSerializer(serializers.ModelSerializer):
