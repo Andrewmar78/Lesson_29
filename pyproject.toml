@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lesson-29"
+version = "0.1.0"
+description = ""
+authors = ["msi <Andrewmar78>"]
+readme = "README.md"
+packages = [{include = "lesson_29"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1"
+djangorestframework = "^3.13.1"
+Pillow = "^9.2.0"
+psycopg2 = "^2.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
